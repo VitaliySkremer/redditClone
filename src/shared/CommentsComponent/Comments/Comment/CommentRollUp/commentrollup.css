@@ -1,0 +1,32 @@
+.commentRollup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.commentLine {
+  width: 3px;
+  background-color: #D9D9D9;
+  flex: 1 0;
+}
+
+.commentButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.down {
+  transform: rotate(180deg);
+}
+
+.up:hover > svg > path {
+  fill: var(--green);
+}
+
+.down:hover > svg > path {
+  fill: var(--orange);
+}
+

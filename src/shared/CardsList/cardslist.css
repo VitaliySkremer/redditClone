@@ -1,0 +1,21 @@
+@media all and (min-width: 1024px) {
+    .cardsList {
+        padding: 40px 0;
+    }
+}
+
+.button__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button__more {
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: var(--green);
+    border-radius: 5px;
+}
+
+.button__more:hover {
+    background-color: green;
+}

@@ -1,0 +1,39 @@
+.commentForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+
+.commentForm__title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+.commentForm__titleAvatar {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.commentForm__title_Author{
+  color: #CC6633;
+  margin-right: 4px;
+}
+
+.commentForm__title_Date {
+  color: #999999;
+}
+
+.commentForm__title_Subreddit {
+  padding: 2px 7px 4px 7px;
+  background-color: #D9D9D9;
+}
+
+.commentForm__Body_Text {
+  margin: 0;
+  line-height: 24px;
+}

@@ -1,0 +1,13 @@
+.comment {
+  display: flex;
+  width: 100%;
+  margin-top: 38px;
+}
+
+.comment__content {
+  width: 100%;
+}
+
+.comment__rollup {
+  margin-right: 21px;
+}

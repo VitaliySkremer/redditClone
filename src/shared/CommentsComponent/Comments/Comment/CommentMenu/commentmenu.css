@@ -1,0 +1,17 @@
+.commentMenu__list{
+  display: flex;
+  align-items: center;
+}
+
+.commentMenu__list_Icon {
+  margin-right: 6px;
+}
+
+.commentMenu__list_Item_btn {
+  display: flex;
+  align-items: center;
+}
+
+.commentMenu__list_Item:not(:last-child) {
+  margin-right: 27px;
+}
